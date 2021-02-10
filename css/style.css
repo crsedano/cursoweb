@@ -3,7 +3,8 @@
     pad: 0;
 }
 .contenido{
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
     margin: auto;
     width: 80%;
 }
@@ -15,12 +16,15 @@ header h1{
     height: 80px;
     
 }
+nav{
+    background-color: rgb(71, 111, 170);
+    display: flex;
+    justify-content: center;
+}
 nav ul {
-    padding:0px 400px ;
+    width: 70%;   
     display: flex;
     justify-content: space-between;
-    background-color: rgb(71, 111, 170);
-
 }
 nav ul li{
     list-style-type: none;
