@@ -76,4 +76,17 @@ footer{
     box-shadow: 4px -1px 9px 0px #b9b6b6;
     box-sizing: border-box;
     min-height: 400px;
+  
+}
+@media (max-width:570px){
+    .item{
+        width: 90%;        
+    }
+    nav ul {
+        width: 100%;   
+        display: flex;
+        justify-content: space-around;
+        margin: 0px;
+        padding: 0px;
+    }
 }
